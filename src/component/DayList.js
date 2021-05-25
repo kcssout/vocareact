@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 export default function DayList() {
     const [days, setDays] = useState([]);
-
     useEffect(() => {
 
         fetch('http://localhost:3001/days')

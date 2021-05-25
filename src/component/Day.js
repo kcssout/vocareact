@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import Word from "../component/Word"
 
 export default function Day() {
-    //dummy.word
+    
     const {day} = useParams();
     const [words, setWords] = useState([]);
 

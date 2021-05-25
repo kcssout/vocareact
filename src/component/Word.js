@@ -1,6 +1,7 @@
 import { useState } from "react"
 //word localhost:3001
 //npm server
+//
 
 export default function Word({ word }) {
     const [isShow, setIsShow] = useState(false);

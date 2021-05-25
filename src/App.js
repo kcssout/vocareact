@@ -4,7 +4,6 @@ import DayList from "./component/DayList";
 import Day from "./component/Day";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import EmptyPage from "./component/EmptyPage";
-
 function App() {
   return (
     <BrowserRouter>
@@ -21,7 +20,6 @@ function App() {
             <EmptyPage />
           </Route>
         </Switch>
-
       </div>
     </BrowserRouter>
 
